@@ -17,4 +17,4 @@ Etant donné le diagramme de domaine ci-dessus, les assertions suivantes sont-el
 Représentez la même association avec la notation UML « petit losange » 
 
 - Quelles informations perd-on par rapport au diagramme ci-dessus ? 
-L'information que les étudiants peuvent avoir plusieurs cours se perd
+Les associations ternaires sont compliquées à comprendre et difficilement lisible. Elles dépendent intrinsèquement depuis quelle classe elle est déterminée. Ainsi, les cardinalités particulières sont perdues. 

@@ -1,0 +1,15 @@
+@startuml
+
+class Professeur
+
+class Discipline
+
+<> Cours
+
+class Etudiant
+
+Professeur "*" -- Cours
+Discipline "*" -- Cours
+Etudiant "*" -- Cours : cours
+
+@enduml
